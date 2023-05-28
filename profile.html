@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    img {
+      margin-left: 90px;
+    }
+    a1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    }
+    .search {
+    margin-left: 150px;
+    margin-bottom: 1.5em;
+    }
+    form{
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 45px;
+    }
+    a1{
+      font-size: 15px;
+    }
+    </style>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+      <div class="header">
+        KEDAI KITA MART<br>ENTERPRISE
+      </div>
+      <img src="logo.jpg" alt = "logo" width="280" height="150">
+      <hr style="height:2px;border-width:0;color:black;background-color:black; margin-top: 0em; margin-bottom: 2.5em;">
+      
+        <input class="search" type="text" placeholder="Search products" name="search">
+      
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="packberbukapuasa.html">PACK MAKANAN BERBUKA PUASA</a></li>
+          <li><a href="bantuanasnaf.html">BANTUAN ASNAF</a></li>
+          <li><a href="barangruncit.html">BARANG RUNCIT</a></li>
+          <li><a1 href="profile.html">Profile</a1></li>
+        </ul>
+      </nav>
+
+      <hr style="height:2px;border-width:0;color:black;background-color:black; margin-top: 0em; margin-bottom: 0em;">
+    </header>
+
+    <main>
+      <br><br>
+      <form>
+        Full Name:<br>
+        <input type="text" id="name" name="name">
+        <br><br>
+        Phone Number:<br>
+        <input type="text" id="phonenum" name="phonenum">
+        <br><br>
+        Address:<br>
+        <textarea id="address" name="address"></textarea>
+        <br><br>
+        <img src="picupload.png" width="100" height="100" style="margin-left: 20px;"><br>
+        <a1>Select a file:</a1><br>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    </html>
