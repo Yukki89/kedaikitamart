@@ -7,7 +7,7 @@ body {
   overflow: hidden;
 }
 div.header {
-    position: fixed;
+    position: static;
     width: max-content;
     top: 49px;
     left: 380px;
