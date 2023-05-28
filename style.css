@@ -7,7 +7,7 @@ body {
   overflow: hidden;
 }
 div.header {
-    position: absolute;
+    position: static;
     top: 49px;
     left: 380px;
     font-family: Arial, Helvetica, sans-serif;
